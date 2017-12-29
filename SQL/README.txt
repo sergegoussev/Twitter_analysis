@@ -1,3 +1,5 @@
+Based on MySQL 5.7. Designed to be run on localhost, modify as needed.
+
 RUN in the following order:
 1. Create_twitter_schema.sql
 	- this creates the db schema 
