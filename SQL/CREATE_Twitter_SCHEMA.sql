@@ -86,17 +86,17 @@ CREATE TABLE IF NOT EXISTS twt_qtMaster (
 /*5. Create tables for tweet metadata*/
 CREATE TABLE IF NOT EXISTS meta_hashMaster2 (
 	hashid INT AUTO_INCREMENT,
-    hashtag TEXT,
+	hashtag VARCHAR(280) UNIQUE,
 	PRIMARY KEY (hashid)
     );
 CREATE TABLE IF NOT EXISTS meta_hashMaster1 (
 	twtid VARCHAR(18) NOT NULL,
-    hashid INT,
+	hashid INT,
 	FOREIGN KEY (hashid) REFERENCES meta_hashMaster2(hashid)
     );
 CREATE TABLE IF NOT EXISTS meta_urlMaster2 (
 	urlid INT AUTO_INCREMENT,
-    url TEXT,
+	url VARCHAR(2083) UNIQUE,
 	PRIMARY KEY (urlid)
     );
 CREATE TABLE IF NOT EXISTS meta_urlMaster1 (
