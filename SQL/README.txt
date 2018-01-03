@@ -4,7 +4,7 @@ RUN in the following order:
 1. Create_twitter_schema.sql
 	- this creates the db schema 
 2. Create_aggeregate_views.sql 
-	- creates necessary views (to be expanded later, only 2 views currently)
+	- creates necessary views
 3. Create teh summary procedure.sql
 	- once created, use event scheduler to make a regular call, every hour is recommended
 4. Friendship_index_procedure.sql
