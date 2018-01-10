@@ -1,3 +1,4 @@
+# 
 Social Network Analysis (SNA) of Twitter data
 
 Package of scripts to collect, normalize, store in a MySQL database, extract, model and anlayze discussions on Twitter. 
