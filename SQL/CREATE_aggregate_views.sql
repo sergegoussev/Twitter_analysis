@@ -2,7 +2,7 @@
 Create_aggeregate_views.sql v2.1, release data 2018-01-09
 @SergeGoussev
 ---------------
-This view create script works with Create_twitter_schema.sql v2.xa
+This view create script works with Create_twitter_schema.sql v2
 
 Only input is the name of the database
 
