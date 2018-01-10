@@ -1,6 +1,8 @@
-Based on MySQL 5.7. Designed to be run on localhost, modify as needed.
+<h5>Summary of SQL scripts</h5>
 
-RUN in the following order:
+<p>Based on MySQL 5.7. Designed to be run on localhost, modify as needed.</p>
+
+<h6>RUN in the following order:</h6>
 1. Create_twitter_schema.sql
 	- this creates the db schema 
 2. Create_aggeregate_views.sql 
