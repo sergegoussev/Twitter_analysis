@@ -18,5 +18,6 @@ Package of scripts to collect, normalize, store in a MySQL database, extract, mo
   <li><a href="https://pandas.pydata.org/">pandas</a>;</li>
   <li><a href="http://mysql-python.sourceforge.net/MySQLdb.html">MySQLdb</a>;</li>
 </ul>
+
 -----------------------------------------
 <h6>Note: Not yet complete, work in progress</h6>
